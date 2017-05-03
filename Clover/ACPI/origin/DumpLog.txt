@@ -1,0 +1,81 @@
+23:479  18:755  Found BIOS RSDP at FE020
+23:479  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+23:479  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+23:769  0:289    (Xsdt: 9CFFE120, Rsdt: 9CFFE0AC)
+23:769  0:000    9CFFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 132 -> XSDT.aml
+23:778  0:008    9CFFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 84 -> RSDT.aml
+23:786  0:007    Tables in Xsdt: 12
+23:786  0:000    0. 9CFFC000: 'FACP', 'SLIC-MPC', Rev: 4, Len: 244 -> FACP.aml
+23:794  0:008        (Dsdt: 9CFEC000, Facs: 9CF6C000, XDsdt: 9CFEC000, XFacs: 9CF6C000)
+23:794  0:000        9CFEC000: 'DSDT', '1670    ', Rev: 1, Len: 49663 -> DSDT.aml
+23:969  0:174        9CF6C000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+24:155  0:186    1. 9CFFD000: 'ASF!', '1670    ', Rev: 32, Len: 165 -> ASF!.aml
+24:266  0:111    2. 9CFFB000: 'HPET', '1670    ', Rev: 1, Len: 56 -> HPET.aml
+24:378  0:111    3. 9CFFA000: 'APIC', '1670    ', Rev: 2, Len: 140 -> APIC.aml
+24:489  0:111    4. 9CFF9000: 'MCFG', '1670    ', Rev: 1, Len: 60 -> MCFG.aml
+24:598  0:108    5. 9CFEB000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374 -> SLIC.aml
+24:709  0:111    6. 9CFEA000: 'SSDT', '1670    ', Rev: 1, Len: 3410 -> SSDT-0.aml
+24:820  0:111    7. 9CFE8000: 'BOOT', '1670    ', Rev: 1, Len: 40 -> BOOT.aml
+24:933  0:113    8. 9CFE5000: 'ASPT', '1670    ', Rev: 7, Len: 52 -> ASPT.aml
+25:044  0:110    9. 9CFE4000: 'SSDT', '1670    ', Rev: 1, Len: 2382 -> SSDT-1.aml
+25:155  0:110    10. 9CFE3000: 'SSDT', '1670    ', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+25:155  0:000        * 9AACC018: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00       * 9CE71A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 71 50 6D 52 65 66 00 Internal length = 771 -> SSDT-3x.aml
+25:265  0:110        * 9CE70798: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1831  53 53 44 54 27 07 00 00 01 60 50 6D 52 65 66 00 Internal length = 1831 -> SSDT-4x.aml
+25:377  0:111        * 9CE6FD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 E7 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+25:487  0:109   -> SSDT-2.aml
+25:598  0:110    11. 9CFDD000: 'SSDT', '1670    ', Rev: 1, Len: 8607 -> SSDT-6.aml
+25:710  0:111    Tables in Rsdt: 12
+25:710  0:000    0. 9CFFC000: 'FACP', 'SLIC-MPC', Rev: 4, Len: 244
+25:710  0:000        (Dsdt: 9CFEC000, Facs: 9CF6C000, XDsdt: 9CFEC000, XFacs: 9CF6C000)
+25:710  0:000        9CFEC000: 'DSDT', '1670    ', Rev: 1, Len: 49663
+25:712  0:002        9CF6C000: 'FACS', Ver: 1, Len: 64
+25:712  0:000    1. 9CFFD000: 'ASF!', '1670    ', Rev: 32, Len: 165
+25:712  0:000    2. 9CFFB000: 'HPET', '1670    ', Rev: 1, Len: 56
+25:712  0:000    3. 9CFFA000: 'APIC', '1670    ', Rev: 2, Len: 140
+25:712  0:000    4. 9CFF9000: 'MCFG', '1670    ', Rev: 1, Len: 60
+25:712  0:000    5. 9CFEB000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+25:712  0:000    6. 9CFEA000: 'SSDT', '1670    ', Rev: 1, Len: 3410
+25:712  0:000    7. 9CFE8000: 'BOOT', '1670    ', Rev: 1, Len: 40
+25:712  0:000    8. 9CFE5000: 'ASPT', '1670    ', Rev: 7, Len: 52
+25:712  0:000    9. 9CFE4000: 'SSDT', '1670    ', Rev: 1, Len: 2382
+25:712  0:000    10. 9CFE3000: 'SSDT', '1670    ', Rev: 1, Len: 2454
+25:712  0:000    11. 9CFDD000: 'SSDT', '1670    ', Rev: 1, Len: 8607
+25:712  0:000  Found UEFI Acpi 2.0 RSDP at 9CA72000
+25:712  0:000  Printing ACPI tables from RSDP 9CA72000 ...
+25:712  0:000   9CA72000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:712  0:000    (Xsdt: 9CFFE120, Rsdt: 9CFFE0AC)
+25:712  0:000    9CFFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 132
+25:712  0:000    9CFFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 84
+25:712  0:000    Tables in Xsdt: 12
+25:712  0:000    0. 9CFFC000: 'FACP', 'SLIC-MPC', Rev: 4, Len: 244
+25:712  0:000        (Dsdt: 9CFEC000, Facs: 9CF6C000, XDsdt: 9CFEC000, XFacs: 9CF6C000)
+25:712  0:000        9CFEC000: 'DSDT', '1670    ', Rev: 1, Len: 49663
+25:713  0:001        9CF6C000: 'FACS', Ver: 1, Len: 64
+25:713  0:000    1. 9CFFD000: 'ASF!', '1670    ', Rev: 32, Len: 165
+25:713  0:000    2. 9CFFB000: 'HPET', '1670    ', Rev: 1, Len: 56
+25:713  0:000    3. 9CFFA000: 'APIC', '1670    ', Rev: 2, Len: 140
+25:713  0:000    4. 9CFF9000: 'MCFG', '1670    ', Rev: 1, Len: 60
+25:713  0:000    5. 9CFEB000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+25:713  0:000    6. 9CFEA000: 'SSDT', '1670    ', Rev: 1, Len: 3410
+25:713  0:000    7. 9CFE8000: 'BOOT', '1670    ', Rev: 1, Len: 40
+25:713  0:000    8. 9CFE5000: 'ASPT', '1670    ', Rev: 7, Len: 52
+25:713  0:000    9. 9CFE4000: 'SSDT', '1670    ', Rev: 1, Len: 2382
+25:713  0:000    10. 9CFE3000: 'SSDT', '1670    ', Rev: 1, Len: 2454
+25:713  0:000    11. 9CFDD000: 'SSDT', '1670    ', Rev: 1, Len: 8607
+25:713  0:000    Tables in Rsdt: 12
+25:713  0:000    0. 9CFFC000: 'FACP', 'SLIC-MPC', Rev: 4, Len: 244
+25:713  0:000        (Dsdt: 9CFEC000, Facs: 9CF6C000, XDsdt: 9CFEC000, XFacs: 9CF6C000)
+25:713  0:000        9CFEC000: 'DSDT', '1670    ', Rev: 1, Len: 49663
+25:715  0:001        9CF6C000: 'FACS', Ver: 1, Len: 64
+25:715  0:000    1. 9CFFD000: 'ASF!', '1670    ', Rev: 32, Len: 165
+25:715  0:000    2. 9CFFB000: 'HPET', '1670    ', Rev: 1, Len: 56
+25:715  0:000    3. 9CFFA000: 'APIC', '1670    ', Rev: 2, Len: 140
+25:715  0:000    4. 9CFF9000: 'MCFG', '1670    ', Rev: 1, Len: 60
+25:715  0:000    5. 9CFEB000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+25:715  0:000    6. 9CFEA000: 'SSDT', '1670    ', Rev: 1, Len: 3410
+25:715  0:000    7. 9CFE8000: 'BOOT', '1670    ', Rev: 1, Len: 40
+25:715  0:000    8. 9CFE5000: 'ASPT', '1670    ', Rev: 7, Len: 52
+25:715  0:000    9. 9CFE4000: 'SSDT', '1670    ', Rev: 1, Len: 2382
+25:715  0:000    10. 9CFE3000: 'SSDT', '1670    ', Rev: 1, Len: 2454
+25:715  0:000    11. 9CFDD000: 'SSDT', '1670    ', Rev: 1, Len: 8607

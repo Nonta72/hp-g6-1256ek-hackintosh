@@ -1,0 +1,57 @@
+Device (ARPT)
+                {
+                    Name (_ADR, Zero)
+                    Name (_PRW, Package (0x02)
+                    {
+                        0x09, 
+                        0x04
+                    })
+                    Method (_DSM, 4, NotSerialized)
+                    {
+                        Store (Package (0x10)
+                            {
+                                "device-id", 
+                                Unicode ("*"), 
+                                "device_type", 
+                                Buffer (0x08)
+                                {
+                                    "AirPort"
+                                }, 
+
+                                "model", 
+                                Buffer (0x28)
+                                {
+                                    "AzureWave AR9002WB-1NG Wireless Network"
+                                }, 
+
+                                "subsystem-id", 
+                                Buffer (0x04)
+                                {
+                                    0x8F, 0x00, 0x00, 0x00
+                                }, 
+
+                                "subsystem-vendor-id", 
+                                Buffer (0x04)
+                                {
+                                    0x6B, 0x10, 0x00, 0x00
+                                }, 
+
+                                "compatible", 
+                                Buffer (0x0B)
+                                {
+                                    "pci168c,2a"
+                                }, 
+
+                                "IOName", 
+                                Buffer (0x0B)
+                                {
+                                    "pci168c,2a"
+                                }, 
+
+                                "name", 
+                                "Airport Extreme"
+                            }, Local0)
+                        DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))
+                        Return (Local0)
+                    }
+                }

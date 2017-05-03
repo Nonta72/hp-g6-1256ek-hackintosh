@@ -1,0 +1,1 @@
+Please, use one of the three files to activate the ar9285 wifi card.

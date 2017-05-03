@@ -1,0 +1,1 @@
+Please, use either IOath3kfrmwr.kext or BTFirmwareUploader.kext for Bluetooth.
