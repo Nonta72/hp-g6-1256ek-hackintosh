@@ -23,11 +23,15 @@ What isn't working or hasn't been tested
 - VGA (haven't tested it)
 
 Credits to:
+- Slice
+- AndyV
 - RehabMan
 - grexai926 @ InsanelyMac
+- Mieze @ InsanelyMac
 - nguyenmac
 - PikerA
 - EmlyDinEsh
 - Toleda
+- Sinetek @ InsanelyMac
 - All the folks @ InsanelyMac
 - Anyone else I might have forgotten
