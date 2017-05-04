@@ -1,5 +1,5 @@
-This is the files of my working hackintosh laptop.
-You can probably use the patched AML files directly. But if there is an even small different between hardwares (i.e RAM differences, processor differences, wifi cards etc.), it will certainly cause problems.
+This are the files of my working hackintosh laptop.
+You can probably use the patched AML files directly. But if there is an even small difference between hardwares (i.e RAM differences, processor differences, wifi cards etc.), it will certainly cause problems.
 NOTE: DOWNLOAD THE REPO AS ZIP OR CLONE IT WITH GIT.
 
 What is working
