@@ -1,10 +1,12 @@
 into method label _Q10 replace_content
 begin
 // Brightness Down\n
-    Notify(\_SB.PCI0.LPCB.PS2K, 0x0405)\n
+    Notify(\_SB.PCI0.LPCB.PS2M, 0x0205)\n
+    Notify(\_SB.PCI0.LPCB.PS2M, 0x0285)\n
 end;
 into method label _Q11 replace_content
 begin
 // Brightness Up\n
-    Notify(\_SB.PCI0.LPCB.PS2K, 0x0406)\n
+    Notify(\_SB.PCI0.LPCB.PS2M, 0x0206)\n
+    Notify(\_SB.PCI0.LPCB.PS2M, 0x0286)\n
 end;
